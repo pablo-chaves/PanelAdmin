@@ -1,29 +1,6 @@
 const AdminBro = require('admin-bro');
-const { country, property, posts, favorites } = require('../models');
-//---------------------------------------
-// const { userResource, companyResource } = require('./resources');
-// const adminBro = new AdminBro({
-//   rootPath: '/admin',
-//   loginPath: '/admin/login',
-//   resources: [{
-//     resource: country,
-//     options: {
-//       ...UserResource,
-//       parent: sidebarGroups.user,
-//     }
-//    }, {
-//     resource: country,
-//     options: {
-//       ...CompanyResource,
-//       parent: sidebarGroups.country,
-//     }
-//   }],
-//   branding: {
-//     companyName: 'AdminBro Tutorial',
-//     softwareBrothers: false,
-//   }
-// });
-//---------------------------------------
+const { property, posts, favorites } = require('../models');
+
 const sidebarGroups = {
   user: {
     name: 'User Management',
@@ -65,6 +42,9 @@ const adminBro = new AdminBro({
     }
   }
 ],
+dashboard: {
+  component: AdminBro.bundle('./dashboard.jsx')
+},
   branding: {
    companyName: 'My House-App',
    softwareBrothers: false,
