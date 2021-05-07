@@ -50,4 +50,5 @@ dashboard: {
    softwareBrothers: false,
   }
 });
+//prueba
 module.exports = adminBro;
