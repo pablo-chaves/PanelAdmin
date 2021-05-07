@@ -1,5 +1,5 @@
 const AdminBro = require('admin-bro');
-const { country } = require('../models');
+const { country, property, posts, favorites } = require('../models');
 //---------------------------------------
 // const { userResource, companyResource } = require('./resources');
 // const adminBro = new AdminBro({
@@ -34,16 +34,32 @@ const sidebarGroups = {
     icon: 'Product'
   }
 };
+
 const adminBro = new AdminBro({
   rootPath: '/admin',
   loginPath: '/admin/login',
   resources: [{
-    resource: country,
+    resource: property,
     options: {
       parent: sidebarGroups.user,
     }
   }, {
-    resource: country,
+    resource: property,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: posts,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: favorites,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: posts,
     options: {
       parent: sidebarGroups.company,
     }

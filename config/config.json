@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "postgres",
-    "password": "leandro28",
-    "database": "countries",
-    "host": "127.0.0.1",
+    "password": "houseapp123",
+    "database": "rental",
+    "host": "houseapp.c5uj5r0wyxvp.us-east-1.rds.amazonaws.com",
     "dialect": "postgres"
   }
 }
