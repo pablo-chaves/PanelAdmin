@@ -62,4 +62,5 @@ dashboard: {
    favicon: 'https://i.postimg.cc/Y9NCxR0h/circulo.png'
   }
 });
+//prueba
 module.exports = adminBro;
