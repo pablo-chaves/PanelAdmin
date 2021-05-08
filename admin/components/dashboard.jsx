@@ -1,15 +1,15 @@
 import { Box, Text } from '@admin-bro/design-system';
-import colors from '../utils/colors.jsx';
+import colors from '../../utils/colors.jsx';
 
 const Dashboard = () => {
   return (
     <Box variant="grey">
       <Box>
-        <Text fontSize='default' color={colors.blue}>Admin Panel</Text>
+        <Text className='name-panel'>Admin Panel</Text>
       </Box>
-      <Box variant="white">
-        <Text fontSize='xl' fontWeight='normal' color={colors.dark} paddingTop='10px'>Welcome to</Text>
-        <Text fontSize='h2' fontWeight='normal' color={colors.blue} paddingTop='10px'>My House-App</Text>
+      <Box className='title-container'>
+        <Text className='subtitle-dashboard'>Welcome to</Text>
+        <Text className='title-dashboard'>My House-App</Text>
       </Box>
     </Box>
   )
