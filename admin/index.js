@@ -16,7 +16,7 @@ const adminBro = new AdminBro({
   rootPath: '/admin',
   loginPath: '/admin/login',
   resources: [{
-    resource: property,
+    resource: users,
     options: {
       parent: sidebarGroups.user,
     }
@@ -37,11 +37,6 @@ const adminBro = new AdminBro({
     }
   }, {
     resource: visitDate,
-    options: {
-      parent: sidebarGroups.company,
-    }
-  }, {
-    resource: users,
     options: {
       parent: sidebarGroups.company,
     }
