@@ -53,14 +53,13 @@ const adminBro = new AdminBro({
   }
 ],
 dashboard: {
-  component: AdminBro.bundle('./dashboard.jsx')
+  component: AdminBro.bundle('./components/dashboard.jsx')
 },
   branding: {
    companyName: 'My House-App',
    softwareBrothers: false,
-   logo: 'https://i.postimg.cc/SQWSdLR3/logo-Title.png',
-   favicon: 'https://i.postimg.cc/Y9NCxR0h/circulo.png'
+   logo: 'https://i.postimg.cc/QtJkD4hw/logoAzul.png',
+   favicon: 'https://i.postimg.cc/Y9NCxR0h/circulo.png',
   }
 });
-//prueba
 module.exports = adminBro;

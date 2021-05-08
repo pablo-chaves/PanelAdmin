@@ -1,5 +1,5 @@
 import { Box, Text } from '@admin-bro/design-system';
-import colors from '../utils/colors.js';
+import colors from '../../utils/colors.js';
 
 const Dashboard = () => {
   return (
