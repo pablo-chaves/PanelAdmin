@@ -3,11 +3,11 @@ const { property, posts, favorites, visitDate, users, images, comments } = requi
 
 const sidebarGroups = {
   user: {
-    name: 'User Management',
+    name: 'Users Management',
     icon: 'User',
   },
   company: {
-    name: 'Company Management',
+    name: 'My House Management',
     icon: 'Product'
   }
 };
@@ -58,6 +58,8 @@ dashboard: {
   branding: {
    companyName: 'My House-App',
    softwareBrothers: false,
+   logo: 'https://i.postimg.cc/SQWSdLR3/logo-Title.png',
+   favicon: 'https://i.postimg.cc/Y9NCxR0h/circulo.png'
   }
 });
 module.exports = adminBro;
