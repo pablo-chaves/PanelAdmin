@@ -75,8 +75,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.BOOLEAN,
       },
     });
-    // property.associate = function(models) {
-    //   property.hasOne(models.posts);
-    // };
+    property.associate = function(models) {
+      property.hasOne(models.posts)
+      property.hasMany(models.visitDate);
+      property.hasMany(models.images);
+    };
     return property;
 };

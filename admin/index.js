@@ -1,5 +1,5 @@
 const AdminBro = require('admin-bro');
-const { property, posts, favorites } = require('../models');
+const { property, posts, favorites, visitDate, users, images, comments } = require('../models');
 
 const sidebarGroups = {
   user: {
@@ -36,7 +36,22 @@ const adminBro = new AdminBro({
       parent: sidebarGroups.company,
     }
   }, {
-    resource: posts,
+    resource: visitDate,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: users,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: images,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: comments,
     options: {
       parent: sidebarGroups.company,
     }
