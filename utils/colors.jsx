@@ -4,6 +4,7 @@ const colors = {
     dark: '#0F1A28',
     blue: '#0578AC',
     bright: '#00CFFF',
-    light_blue: '#B3EFFF'
-}
- export default colors
+    light_blue: '#B3EFFF',
+    white: '#FBFBFB'
+};
+ export default colors;
