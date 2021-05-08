@@ -1,13 +1,13 @@
 const AdminBro = require('admin-bro');
-const { property, posts, favorites } = require('../models');
+const { property, posts, favorites, visitDate, users, images, comments } = require('../models');
 
 const sidebarGroups = {
   user: {
-    name: 'User Management',
+    name: 'Users Management',
     icon: 'User',
   },
   company: {
-    name: 'Company Management',
+    name: 'My House Management',
     icon: 'Product'
   }
 };
@@ -16,7 +16,7 @@ const adminBro = new AdminBro({
   rootPath: '/admin',
   loginPath: '/admin/login',
   resources: [{
-    resource: property,
+    resource: users,
     options: {
       parent: sidebarGroups.user,
     }
@@ -36,7 +36,17 @@ const adminBro = new AdminBro({
       parent: sidebarGroups.company,
     }
   }, {
-    resource: posts,
+    resource: visitDate,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: images,
+    options: {
+      parent: sidebarGroups.company,
+    }
+  }, {
+    resource: comments,
     options: {
       parent: sidebarGroups.company,
     }
@@ -48,6 +58,8 @@ dashboard: {
   branding: {
    companyName: 'My House-App',
    softwareBrothers: false,
+   logo: 'https://i.postimg.cc/SQWSdLR3/logo-Title.png',
+   favicon: 'https://i.postimg.cc/Y9NCxR0h/circulo.png'
   }
 });
 //prueba

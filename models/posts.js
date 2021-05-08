@@ -16,6 +16,8 @@ module.exports = (sequelize, DataTypes) => {
   });
   posts.associate = function(models) {
     posts.belongsTo(models.property, { foreignKey: 'propertyId' });
+    posts.belongsTo(models.users, { foreignKey: 'userId' });
+    posts.hasMany(models.comments);
   };
   return posts;
 };
