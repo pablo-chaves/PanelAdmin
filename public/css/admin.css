@@ -110,3 +110,92 @@
 .HUeuC > :nth-child(2) {
     padding-left: 8px !important;
 }
+
+/*/////////////*****\\\\\\\\\\\\\\*/
+/*/////////////LISTS\\\\\\\\\\\\\\*/
+/*/////////////*****\\\\\\\\\\\\\\*/
+/*header "list"*/
+.iEckwY {
+    display: none;
+}
+
+/*links color*/
+.tCNec {
+    color: var(--blue) !important;
+}
+
+.tCNec:hover {
+    color: var(--dark) !important;
+}
+
+/*title / route*/
+.bPqSOs {
+    color: var(--blue) !important;
+}
+
+.bPqSOs:hover {
+    color: var(--black) !important;
+}
+
+/*header list color*/
+.admin-bro_SortLink {
+    color: var(--dark) !important;
+    text-transform: uppercase;
+}
+
+/*true & false items*/
+.efSokc {
+    color: var(--blue) !important;
+    border: 1px solid var(--blue) !important;
+}
+
+/*row hover*/
+.iPYEcB {
+    background: var(--white) !important;
+    transition: all 0.3s;
+}
+
+.iPYEcB:hover {
+    background: var(--light-blue) !important;
+    transition: all 0.3s;
+}
+
+/*button*/
+.admin-bro_ButtonGroupItem {
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+    transition: all 0.3s;
+}
+
+.admin-bro_ButtonGroupItem:hover {
+    background-color: var(--dark) !important;
+    transition: all 0.3s;
+}
+
+/*icon button color*/
+.izUtDE .admin-bro_Icon svg {
+    fill: var(--white) !important;
+}
+
+/*/////////////*******\\\\\\\\\\\\\\*/
+/*/////////////DETAILS\\\\\\\\\\\\\\*/
+/*/////////////*******\\\\\\\\\\\\\\*/
+/*field title*/
+.fyQNXW, .jymcNI, .fzHWOd {
+    text-transform: uppercase;
+}
+
+/*/////////////*******\\\\\\\\\\\\\\*/
+/*/////////////EDIT\\\\\\\\\\\\\\*/
+/*/////////////*******\\\\\\\\\\\\\\*/
+/*save button*/
+.KUrOd {
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+    transition: all 0.3s;
+}
+
+.KUrOd:hover {
+    background-color: var(--dark) !important;
+    transition: all 0.3s;
+}
