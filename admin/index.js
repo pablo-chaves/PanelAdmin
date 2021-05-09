@@ -69,8 +69,8 @@ const adminBro = new AdminBro({
   branding: {
     companyName: 'My House-App',
     softwareBrothers: false,
-    logo: 'https://i.postimg.cc/QtJkD4hw/logoAzul.png',
-    favicon: 'https://i.postimg.cc/Y9NCxR0h/circulo.png',
+    logo: 'https://raw.githubusercontent.com/lavalbuena357/central/main/client/src/images/newLogos/logoHorizontal.png',
+    favicon: 'https://raw.githubusercontent.com/lavalbuena357/central/main/client/src/images/newLogos/logoCirculo.png',
   }
 });
 module.exports = adminBro;
