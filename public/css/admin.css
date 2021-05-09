@@ -78,7 +78,7 @@
     transition: all 0.3s;
 }
 
-.crtAEj:hover {
+.crtAEj:hover, .dWwVRQ:hover, .jbpNir:hover {
     color: var(--bright) !important;
     transition: all 0.3s;
 }
@@ -165,6 +165,7 @@
     background-color: var(--blue) !important;
     color: var(--white) !important;
     transition: all 0.3s;
+    border-radius: 25px;
 }
 
 .admin-bro_ButtonGroupItem:hover {
@@ -175,6 +176,18 @@
 /*icon button color*/
 .izUtDE .admin-bro_Icon svg {
     fill: var(--white) !important;
+}
+
+/*selected title*/
+.fWklYi {
+    background: var(--blue) !important;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+/*checkbox*/
+.gCoCKx {
+    background: var(--blue) !important;
 }
 
 /*/////////////*******\\\\\\\\\\\\\\*/
@@ -193,9 +206,21 @@
     background-color: var(--blue) !important;
     color: var(--white) !important;
     transition: all 0.3s;
+    border-radius: 25px;
 }
 
 .KUrOd:hover {
     background-color: var(--dark) !important;
     transition: all 0.3s;
+}
+
+/*/////////////*****\\\\\\\\\\\\\\*/
+/*/////////////FORMS\\\\\\\\\\\\\\*/
+/*/////////////*****\\\\\\\\\\\\\\*/
+.admin-bro_Input, .css-70ep3o-control {
+    border-radius: 25px !important;
+}
+
+.css-tmzmdt-menu div div:hover {
+    background: var(--blue) !important;
 }
