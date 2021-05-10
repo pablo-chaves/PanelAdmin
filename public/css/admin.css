@@ -22,7 +22,7 @@
 }
 
 .title-container {
-    background-color: var(--dark);
+    background-color: var(--blue);
     padding: 25px;
     color: var(--light-blue);
     border-radius: 10px;
@@ -71,18 +71,18 @@
 /*/////////////NAVIGATION\\\\\\\\\\\\\\*/
 /*/////////////**********\\\\\\\\\\\\\\*/
 .admin-bro_Resources {
-    background-color: var(--dark);
+    background-color: var(--white);
 }
 
 .admin-bro_Resources .admin-bro_Box {
-    color: var(--white);
+    color: var(--blue);
 }
 
 /*categories container*/
 .iQoIgc {
-    background-color: var(--white) !important;
+    background-color: var(--blue) !important;
     border-radius: 25px;
-    color: var(--dark) !important;
+    color: var(--white) !important;
     transition: all 0.3s;
 }
 
@@ -93,7 +93,7 @@
 
 /*elements categories*/
 .crtAEj {
-    color: var(--white) !important;
+    color: var(--blue) !important;
     transition: all 0.3s;
 }
 
