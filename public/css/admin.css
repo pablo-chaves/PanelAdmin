@@ -105,8 +105,8 @@
 /*/////////////*******\\\\\\\\\\\\\\*/
 /*/////////////FILTERS\\\\\\\\\\\\\\*/
 /*/////////////*******\\\\\\\\\\\\\\*/
-.admin-bro_ButtonGroupItem:last-child {
-    display: none;
+.bmmNWL {
+    display: none !important;
 }
 
 .crtAEj > .icon-box svg {
